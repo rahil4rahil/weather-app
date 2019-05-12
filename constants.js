@@ -1,0 +1,1 @@
+exports.WEATHER_URL = "https://api.darksky.net/forecast/9dd78c634c08a2af1273f210c03cb100"
