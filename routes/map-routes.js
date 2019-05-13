@@ -20,7 +20,6 @@ router.post('/getCityForecastData', (req, res, next) => {
 router.post('/getCitySearchList', (req, res, next) => {
     console.log(req.body)
     cityFinder.getFilterCityList(req.body.searchString, (resultList) => {
-        console.log(resultList)
         res.json(resultList)
     })
 })
